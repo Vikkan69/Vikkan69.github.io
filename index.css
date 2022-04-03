@@ -1,0 +1,16 @@
+#fyrkant {
+    background-color: blue;
+    display: inline-block;
+    color: pink;
+    padding: 50px 10px;
+    margin-left: 10vw;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px green;
+    transition: width 2s, height 5s, padding 3s, background-color 1000ms linear;
+}
+
+#fyrkant:hover {
+    background-color: orange;
+    color: red;
+    padding: 100px;
+}
